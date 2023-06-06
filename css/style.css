@@ -1,4 +1,4 @@
-header{
+header {
     gap: 20px;
     display: flex;
     flex-direction: column;
@@ -6,36 +6,36 @@ header{
 }
 
 
-.logo{
+.logo {     
     margin-top: 30px;
-   
+
 }
 
-header nav{
+header nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: #000;
     padding: 1em;
     font-size: 1.2em;
 }
 
-.inscrever-se{
+.inscrever-se {
     font-size: 25px;
-    background-color:#ED4D1B ;
+    background-color: #ED4D1B;
     border: 2px solid;
     width: 250px;
     height: 60px;
     box-shadow: 5px 5px;
     text-transform: uppercase;
-    
+
 
 }
 
-.banda{
+.banda {
     width: 400px;
     height: 400px;
 }
@@ -45,21 +45,21 @@ article h1 {
     font-size: 3em;
 }
 
-article span{
+article span {
     color: #ED4D1B;
 }
 
-article p{
+article p {
     margin-top: 1em;
     margin-left: 1em;
     font-size: 1.5em;
 }
 
-article #botao-comece{
+article #botao-comece {
     margin-top: 2em;
     margin-left: 1em;
     font-size: 25px;
-    background-color:#ED4D1B ;
+    background-color: #ED4D1B;
     border: 2px solid;
     width: 250px;
     height: 60px;
@@ -67,12 +67,12 @@ article #botao-comece{
     text-transform: uppercase;
 }
 
-article .seta-curva{
+article .seta-curva {
     margin-top: 2em;
-    margin-left:10em;
+    margin-left: 10em;
 }
 
-.cards{
+.cards {
     margin-top: 2em;
     display: flex;
     flex-direction: column;
@@ -82,7 +82,7 @@ article .seta-curva{
 }
 
 .card-1,
-.card-2{
+.card-2 {
     border: 2px solid;
     box-shadow: 5px 5px;
     padding: 2em;
@@ -90,40 +90,40 @@ article .seta-curva{
     width: 350px;
 }
 
-.card-1{
+.card-1 {
     background-color: #ED4D1B;
 }
 
-.card-2{
+.card-2 {
     background-color: #FF9A3C;
 }
 
-.seta-direita{
+.seta-direita {
     margin-top: 1em;
-   float: right;
+    float: right;
 }
 
 .card-1 h3,
-.card-2 h3{
+.card-2 h3 {
     font-size: 2em;
     margin-top: 1em;
 }
 
 .card-1 p,
-.card-2 p{
+.card-2 p {
     font-size: 20px;
     margin-top: 1em;
 }
 
-article h1{
+article h1 {
     margin-top: 1em;
 }
 
-#conhecer-cursos{
+#conhecer-cursos {
     margin-top: 1em;
     margin-left: 3em;
     font-size: 25px;
-    background-color:#ED4D1B ;
+    background-color: #ED4D1B;
     border: 2px solid;
     width: 250px;
     height: 60px;
@@ -132,32 +132,32 @@ article h1{
 }
 
 
-footer{
+footer {
     padding: 2em;
 }
 
-footer .logo{
+footer .logo {
     margin-left: 5px;
 }
 
-footer p{
+footer p {
     margin-top: 10px;
     margin-left: 5px;
     font-size: 20px;
 }
 
-#nav-footer{
+#nav-footer {
     display: flex;
     flex-direction: column;
     justify-content: end;
     margin: 0;
 }
 
-article h2{
+article h2 {
     font-size: 2em;
 }
 
-#caixa-texto{
+#caixa-texto {
     margin-top: 1em;
     font-size: 25px;
     border: 2px solid;
@@ -167,21 +167,13 @@ article h2{
     text-transform: uppercase;
 }
 
-#quero-receber{ 
+#quero-receber {
     margin-top: 1em;
     font-size: 25px;
-    background-color:#ED4D1B ;
-    border: 2px solid; 
+    background-color: #ED4D1B;
+    border: 2px solid;
     width: 250px;
     height: 60px;
     box-shadow: 5px 5px;
-    text-transform: uppercase;}
-
-
-    @media screen and (min-width:600px){
-        header{
-            
-        }
-    }
-        
-    
+    text-transform: uppercase;
+}
